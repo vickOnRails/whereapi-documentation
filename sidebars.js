@@ -24,7 +24,7 @@ module.exports = {
     {
       type: "category",
       label: "References",
-      items: ["nigeria", "kenya"],
+      items: ["nigeria"],
     },
   ],
 };
