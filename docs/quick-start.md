@@ -10,7 +10,7 @@ Next, generate your API keys. Your API keys should look something like this `cda
 Once you have your keys, you can go ahead to consume the API.
 
 :::info
-Where implements rate limiting and you can make only 60 requests per hour. This is because it's a minimal setup and this easiest way to keep the server stable and cost efficient.
+Where implements rate limiting and you can make only 100 requests pe. This is because it's a minimal setup, and this easiest way to keep the server stable and cost-efficient.
 :::
 
 ## Authentication
@@ -20,7 +20,7 @@ Once you have your API keys, you can now make requests by passing them with the 
 ### Test with JavaScript (React)
 
 ```js
-const baseUrl = `https://api.whereapi.xyz/api/`;
+const baseUrl = `https://whereapis-africa.herokuapp.com/api/`;
 
 // I'm putting the API key here for a straightforward setup.
 // You should put set it up as an environmental variable. See
@@ -36,13 +36,13 @@ useEffect(() => {
 
 ### Test with Postman
 
-Or you could try a postman setup. Try sending a get request to `https://api.whereapi.xyz/api` with the `x-api-key` heading set to your api key. It'll look something like this
+Or you could try a postman setup. Try sending a `GET` request to `https://whereapis-africa.herokuapp.com/api/` with the `x-api-key` header set to your api key. It'll look something like this
 
 ![Screenshot of Postman](./../static/img/screenshot-postman.png)
 
 ### Test with curl
 
-curl is a command-line tool for transfering data. It supports HTTP and other protocols. We can test our endpoints with `curl`
+curl is a command-line tool for transffering data. It supports HTTP and other protocols. We can test our endpoints with `curl`
 
 ```bash
 curl -v https://whereapis-africa.herokuapp.com/api/
@@ -118,9 +118,9 @@ You should get something like this
 ```
 
 :::info
-You should use a `bash` program as curl doesn't work on all terminals. Try git bash or someother bash.
+You should use a `bash` program as curl doesn't work on all terminals. Try git bash or some other bash.
 :::
 
-If these works, congratulations 🎉🎉🎉. You're set to do whatever you want with the API. Now you have your API keys, let's move to how you would make use of the API.
+If any of these works, congratulations 🎉🎉🎉. Let's move on to how you would make use of the API.
 
 Onwards 🤺🤺🤺

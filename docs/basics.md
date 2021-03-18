@@ -9,7 +9,7 @@ The most basic endpoint you can call is a `GET` to the root endpoint.
 curl https://whereapis-africa.herokuapp.com/api/
 ```
 
-You don't need an API key for this. It's just to basically check that you can get to the API. Once this works, you'll want generate your API keys and ensure they work. Try to get all the countries (This is protected and will require your API keys).
+You don't need an API key for this. Once this works, you'll want to generate your API keys and ensure they work. Try to get all the countries (This is protected and will require your API keys).
 
 ```bash
 curl https://whereapis-africa.herokuapp.com/api/countries
@@ -28,21 +28,25 @@ Responses always come in an object of 3 properties
 }
 ```
 
-The messages are user friendly and will be helpful to both you, the developer and users of the apps you're building.
+The `message` field contains a user-friendly message and will be helpful to both you, the developer, and users of the apps you're building.
 
 ### Common Error Messages
 
-- Exceeded API limits
-- Not found
-- Wrong request
-- Wrong parameters
+- Exceeded daily API limits (492) -
+- Not found (404) - The resource in question was not found. This could be an entity or an endpoint
+- Unprocessable entity (422) - The fields you sent to the backend are incorrect
+- Authentication error. Please attach an API key to your requests (401) - The API key was not attached to the Request.
+- Invalid API Key (401) - wrong API key. Ensure your API key is correct.
 
-Understanding these shouldn't be hard for you if you're familiar with building APIs. But you can always tweet at me if you're find any of these difficult to understand.
+Understanding these shouldn't be hard for you if you're familiar with building APIs. But you can [tweet](https://twitter.com/vick_OnRails) at me if you find any of these difficult to understand.
 
 ## Reference
 
-If you're quite familiar with APIs and you get the hang of WhereAPI, you can go through the reference and see the exact use case you're looking for. You could also look at the examples for common use cases.
+If you've worked with APIs before and get the hang of WhereAPI, you can go through the References and see the exact use case you're looking for. There's also an Examples section that covers other basic use cases too.
 
 ## The tutorial
 
-The next section is a tutorial to show how you might approach using the API. We're going to build a simple directory of all Nigerian states and their local governments areas. The easiest setup is a `nextjs` site with 2 views.
+We're going to build a simple directory of all Nigerian states and their local government areas. The aim is to show how you might use this API in a ReactJS setup.
+
+:::info
+More examples will be added in the future

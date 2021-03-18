@@ -19,7 +19,7 @@ module.exports = {
     {
       type: "category",
       label: "Guides",
-      items: ["sorting", "filtering", "searching", "faqs"],
+      items: ["filtering", "pagination", "searching", "sorting", "faqs"],
     },
     {
       type: "category",
