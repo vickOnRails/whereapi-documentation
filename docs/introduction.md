@@ -4,6 +4,12 @@ title: Introduction
 slug: /
 ---
 
+:::info
+WhereAPI is a simple service to help developers building for an African audience solve location-related problems. It maintains an up-to-date, sorted database of location information ready to plug in to your app.
+:::
+
+## Motivation
+
 If you have worked on a product that required collecting and indexing location-related information for an African audience, I bet you’d agree this experience is pretty fragmented.
 
 You could take one of 3 approaches

@@ -3,7 +3,7 @@ id: searching
 title: Searching
 ---
 
-What's an API without a search😳?
+What's the point of an API if we can't search😳?
 
 Let's see an example that searches for a particular state (Lagos) in Nigeria.
 
@@ -36,8 +36,7 @@ Our response
         "Ikeja",
         "Lagos"
       ],
-      "countryId": "f794ecd7-679e-4989-9be6-e081ac2f7145",
-      "url": "http://localhost:5000/api/countries/f794ecd7-679e-4989-9be6-e081ac2f7145/states/c9aa6667-0c77-4674-b8fc-2e773c114bda"
+      "countryId": "f794ecd7-679e-4989-9be6-e081ac2f7145"
     }
   ]
 }
@@ -66,9 +65,7 @@ Our response
       "capital": "Umuahia",
       "cities": ["Aba"],
       "countryId": "f794ecd7-679e-4989-9be6-e081ac2f7145",
-      "createdAt": "2021-03-15T10:26:08.035Z",
-      "updatedAt": "2021-03-15T10:26:08.038Z",
-      "url": "http://localhost:5000/api/countries/f794ecd7-679e-4989-9be6-e081ac2f7145/states/cd269093-1687-4b31-8ec1-e978898b81fd"
+      "url": "http://whereapis-africa.herokuapp.com/api/countries/f794ecd7-679e-4989-9be6-e081ac2f7145/states/cd269093-1687-4b31-8ec1-e978898b81fd"
     },
     {
       "id": "ac0974a1-3f1b-4e39-8bfa-703c00d8d668",
@@ -80,9 +77,7 @@ Our response
       "capital": "Abuja Municipal Area",
       "cities": [],
       "countryId": "f794ecd7-679e-4989-9be6-e081ac2f7145",
-      "createdAt": "2021-03-15T10:26:08.035Z",
-      "updatedAt": "2021-03-15T10:26:08.038Z",
-      "url": "http://localhost:5000/api/countries/f794ecd7-679e-4989-9be6-e081ac2f7145/states/ac0974a1-3f1b-4e39-8bfa-703c00d8d668"
+      "url": "http://whereapis-africa.herokuapp.com/api/countries/f794ecd7-679e-4989-9be6-e081ac2f7145/states/ac0974a1-3f1b-4e39-8bfa-703c00d8d668"
     }
   ]
 }

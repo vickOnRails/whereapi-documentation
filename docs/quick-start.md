@@ -3,9 +3,7 @@ id: quick-start
 title: Quick Start
 ---
 
-The fastest way to get started with WhereAPI is to create an account.
-
-Next, generate your API keys. Your API keys should look something like this `cdad871a-debd-4025-bf06-0744d80ad3ab`.
+The fastest way to get started with WhereAPI is to create an account. Next, generate your API keys. Your API keys should look something like this `cdad871a-debd-4025-bf06-0744d80ad3ab`.
 
 Once you have your keys, you can go ahead to consume the API.
 

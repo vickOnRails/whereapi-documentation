@@ -3,7 +3,7 @@ id: basics
 title: Basics
 ---
 
-The most basic endpoint you can call is a `GET` to the root endpoint.
+It's easy to get started with WhereAPI. The most basic thing you can do is send a `GET` to the root endpoint. This will return a welcome message. When this works, you'll want to get your API keys next.
 
 ```bash
 curl https://whereapis-africa.herokuapp.com/api/

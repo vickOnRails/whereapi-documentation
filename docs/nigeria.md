@@ -50,9 +50,7 @@ The response will look like this
     "id": "f794ecd7-679e-4989-9be6-e081ac2f7145",
     "name": "Nigeria",
     "description": "Largest country in Africa",
-    "code": "ng",
-    "createdAt": "2021-03-15T10:26:05.644Z",
-    "updatedAt": "2021-03-17T07:13:00.244Z"
+    "code": "ng"
   }
 }
 ```
@@ -88,8 +86,6 @@ This will return something like this
                 "Aba"
             ],
             "countryId": "f794ecd7-679e-4989-9be6-e081ac2f7145",
-            "createdAt": "2021-03-15T10:26:08.035Z",
-            "updatedAt": "2021-03-15T10:26:08.038Z",
             "url": "https://whereapis-africa.herokuapp.com/api/countries/f794ecd7-679e-4989-9be6-e081ac2f7145/states/cd269093-1687-4b31-8ec1-e978898b81fd"
         },
         {
@@ -102,8 +98,6 @@ This will return something like this
             "capital": "Abuja Municipal Area",
             "cities": [],
             "countryId": "f794ecd7-679e-4989-9be6-e081ac2f7145",
-            "createdAt": "2021-03-15T10:26:08.035Z",
-            "updatedAt": "2021-03-15T10:26:08.038Z",
             "url": "https://whereapis-africa.herokuapp.com/api/countries/f794ecd7-679e-4989-9be6-e081ac2f7145/states/ac0974a1-3f1b-4e39-8bfa-703c00d8d668"
         },
         {...}
@@ -137,8 +131,6 @@ You'll get the following response
             "Kano"
         ],
         "countryId": "f794ecd7-679e-4989-9be6-e081ac2f7145",
-        "createdAt": "2021-03-15T10:26:08.037Z",
-        "updatedAt": "2021-03-15T10:26:08.038Z"
     }
 }
 ```
@@ -190,8 +182,6 @@ You'll get the following response.
       "description": "Agege is a suburb and local government area in the Ikeja Division of Lagos State, Nigeria.",
       "countryId": "f794ecd7-679e-4989-9be6-e081ac2f7145",
       "stateId": "c9aa6667-0c77-4674-b8fc-2e773c114bda",
-      "createdAt": "2021-03-15T10:26:10.692Z",
-      "updatedAt": "2021-03-15T10:26:10.703Z",
       "url": "https://whereapis-africa.herokuapp.com/api/countries/f794ecd7-679e-4989-9be6-e081ac2f7145/states/c9aa6667-0c77-4674-b8fc-2e773c114bda/lgas/aedbc5ed-8ba6-41ca-bbf4-5491307c4615"
     },
     {
@@ -202,8 +192,6 @@ You'll get the following response.
       "description": "Ajeromi-Ifelodun is a Local Government Area in Badagry Division, Lagos State. It has some 57,276.3 inhabitants per square kilometer, among if not the world's densest.",
       "countryId": "f794ecd7-679e-4989-9be6-e081ac2f7145",
       "stateId": "c9aa6667-0c77-4674-b8fc-2e773c114bda",
-      "createdAt": "2021-03-15T10:26:10.692Z",
-      "updatedAt": "2021-03-15T10:26:10.703Z",
       "url": "https://whereapis-africa.herokuapp.com/api/countries/f794ecd7-679e-4989-9be6-e081ac2f7145/states/c9aa6667-0c77-4674-b8fc-2e773c114bda/lgas/99d0e288-d565-4532-b99e-44a67a61d450"
     },
     {
@@ -214,8 +202,6 @@ You'll get the following response.
       "description": "Alimosho is a Local Government Area in the Ikeja Division, Lagos State, Nigeria. It is the largest local government in Lagos, with 1,288,714 inhabitants, according to the official 2006 Census.",
       "countryId": "f794ecd7-679e-4989-9be6-e081ac2f7145",
       "stateId": "c9aa6667-0c77-4674-b8fc-2e773c114bda",
-      "createdAt": "2021-03-15T10:26:10.692Z",
-      "updatedAt": "2021-03-15T10:26:10.703Z",
       "url": "https://whereapis-africa.herokuapp.com/api/countries/f794ecd7-679e-4989-9be6-e081ac2f7145/states/c9aa6667-0c77-4674-b8fc-2e773c114bda/lgas/23093f9d-957d-4a88-b985-0bc87cc10404"
     },
     {...}

@@ -3,7 +3,7 @@ id: filtering
 title: Filtering
 ---
 
-When you make a `GET` request to any WhereAPI endpoint, you get a default load of fields. It's a great practice to request only what you want.
+When you make a `GET` request to any WhereAPI endpoint, you get a default load of fields. It's a great practice to request only what you want. This section will walk you through tailoring your response payload.
 
 Here's what a default request for states in Nigeria returns
 
@@ -22,9 +22,6 @@ Here's what a default request for states in Nigeria returns
       "capital": "Umuahia",
       "cities": ["Aba"],
       "countryId": "f794ecd7-679e-4989-9be6-e081ac2f7145",
-      "createdAt": "2021-03-15T10:26:08.035Z",
-      "updatedAt": "2021-03-15T10:26:08.038Z",
-      "url": "http://localhost:5000/api/countries/f794ecd7-679e-4989-9be6-e081ac2f7145/states/cd269093-1687-4b31-8ec1-e978898b81fd"
     },
     {...}
   ]
