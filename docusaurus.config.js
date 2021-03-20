@@ -2,15 +2,15 @@ const { docs } = require("./sidebars");
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "My Site",
-  tagline: "The tagline of my site",
-  url: "https://your-docusaurus-test-site.com",
+  title: "WhereAPI Documentation",
+  tagline: "Documentation site for the WhereAPI product",
+  url: "https://docs.whereapi.xyz",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "vickOnRails", // Usually your GitHub org/user name.
+  projectName: "where-documentation", // Usually your repo name.
   themeConfig: {
     navbar: {
       title: "WhereAPI Docs",
@@ -20,14 +20,14 @@ module.exports = {
       },
       items: [
         {
-          to: "https://whereapi.xyz",
+          to: "https://docs.whereapi.xyz",
           activeBasePath: "/",
           label: "WhereAPI",
           position: "right",
         },
         // { to: "blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/vickOnRails/where-documentation",
           label: "GitHub",
           position: "right",
         },

@@ -5,7 +5,7 @@ title: Searching
 
 What's an API without a search😳?
 
-You can search on all resources that return multiple records. Let's see an example that searches for a particular state (Lagos) in Nigeria.
+Let's see an example that searches for a particular state (Lagos) in Nigeria.
 
 ```bash
 curl https://whereapis-africa.herokuapp.com/api/countries/f794ecd7-679e-4989-9be6-e081ac2f7145/states?search=lagos -H "your apikey here"
@@ -43,7 +43,7 @@ Our response
 }
 ```
 
-Let's see another example that returns multiple records
+Let's try searching for `ab`. This time, we get multiple records.
 
 ```bash
 curl https://whereapis-africa.herokuapp.com/api/countries/f794ecd7-679e-4989-9be6-e081ac2f7145/states?search=ab -H "your apikey here"
@@ -90,6 +90,6 @@ Our response
 
 ## Current Limitations
 
-Search is on the `name` field. So you have to know the name of the state you're searching for. Ideally, Search should work on all fields and should be full text, but this is a little complex for me to approach at the moment.
+Search is only available on the `name` field. So you have to know the name of the state you're searching for. Ideally, Search should work on all fields and should be full text, but this is a little complex for me to approach at the moment.
 
 I hope to implement it sometime in the future.

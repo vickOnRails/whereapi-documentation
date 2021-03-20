@@ -10,7 +10,7 @@ Next, generate your API keys. Your API keys should look something like this `cda
 Once you have your keys, you can go ahead to consume the API.
 
 :::info
-Where implements rate limiting and you can make only 100 requests pe. This is because it's a minimal setup, and this easiest way to keep the server stable and cost-efficient.
+Where implements rate limiting and you can make only 100 requests per day. This is because it's a minimal setup, and this easiest way to keep the server stable and cost-efficient.
 :::
 
 ## Authentication

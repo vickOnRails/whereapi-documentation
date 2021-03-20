@@ -3,7 +3,7 @@ id: sorting
 title: Sorting
 ---
 
-You'd want to order information alphabetically. WhereAPI provides an `order_by` query param you can use to order collections of data. Here's an a request for all the states in Nigeria
+You'd want to order information alphabetically. WhereAPI provides an `order_by` query param you can use to order collections of data. Here's an a request for all the states in Nigeria ordered alphabetically.
 
 ```bash
 curl -H "your apikey here" https://whereapis-africa.herokuapp.com/api/countries/f794ecd7-679e-4989-9be6-e081ac2f7145/states?order_by=name

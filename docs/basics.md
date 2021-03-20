@@ -32,17 +32,19 @@ The `message` field contains a user-friendly message and will be helpful to both
 
 ### Common Error Messages
 
-- Exceeded daily API limits (492) -
-- Not found (404) - The resource in question was not found. This could be an entity or an endpoint
-- Unprocessable entity (422) - The fields you sent to the backend are incorrect
-- Authentication error. Please attach an API key to your requests (401) - The API key was not attached to the Request.
-- Invalid API Key (401) - wrong API key. Ensure your API key is correct.
+Here are a few error messages you might encounter while using the API
+
+- **Exceeded daily API limits (492)** - Wait for another day to make use of the API. (Very sad limit, but it'll be removed very soon.)
+- **Not found (404)** - The resource in question was not found. This could be an entity or an endpoint.
+- **Unprocessable entity (422)** - The fields you're sending to the API are incorrect.
+- **Authentication error. Please attach an API key to your requests (401)** - The API key was not attached to the Request.
+- **Invalid API Key (401)** - wrong API key. Ensure your API key is correct.
 
 Understanding these shouldn't be hard for you if you're familiar with building APIs. But you can [tweet](https://twitter.com/vick_OnRails) at me if you find any of these difficult to understand.
 
 ## Reference
 
-If you've worked with APIs before and get the hang of WhereAPI, you can go through the References and see the exact use case you're looking for. There's also an Examples section that covers other basic use cases too.
+You can explore the References section to find more information about entities. There's also an Examples section that covers other basic use cases too.
 
 ## The tutorial
 
