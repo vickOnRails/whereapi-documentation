@@ -10,7 +10,7 @@ module.exports = {
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "vickOnRails", // Usually your GitHub org/user name.
-  projectName: "where-documentation", // Usually your repo name.
+  projectName: "whereapi-documentation", // Usually your repo name.
   themeConfig: {
     navbar: {
       title: "WhereAPI Docs",
@@ -20,14 +20,14 @@ module.exports = {
       },
       items: [
         {
-          to: "https://docs.whereapi.xyz",
+          to: "https://whereapi.xyz",
           activeBasePath: "/",
           label: "WhereAPI",
           position: "right",
         },
         // { to: "blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/vickOnRails/where-documentation",
+          href: "https://github.com/vickOnRails/whereapi-documentation",
           label: "GitHub",
           position: "right",
         },
@@ -83,7 +83,8 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           routeBasePath: "/",
           // Please change this to your repo.
-          editUrl: "https://github.com/vickOnRails/whereapi-documentation",
+          editUrl:
+            "https://github.com/vickOnRails/whereapi-documentation/edit/master",
         },
         // blog: {
         //   showReadingTime: true,

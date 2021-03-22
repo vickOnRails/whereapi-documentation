@@ -1,33 +1,14 @@
-# Website
+<div align="center">
+    <img src="./static/img/logo.svg" alt="WhereAPI logo">
+    <h1 align="center">Where API Documentation</h1>
+</div>
 
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+WhereAPI is a simple service that solves location-related problems for small to medium developers building for an African Audience.
 
-## Installation
+- Learn more about the project [here](https://whereapi.xyz/)
+- See the Trello board [here](https://trello.com/b/93xAfnnT/where-api-tracker)
+- Reach out on [Twitter](https://twitter.com/vick_OnRails)
 
-```console
-yarn install
-```
+## Contributing
 
-## Local Development
-
-```console
-yarn start
-```
-
-This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
-
-## Build
-
-```console
-yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-```console
-GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+You can send pull requests to correct typos, bugs or ask questions. I try to respond in under a day. Please give WhereAPI a try and tell me what you think.
